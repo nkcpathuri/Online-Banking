@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Online Bank Management System</title>
+  <style>
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://image.lexica.art/full_jpg/efc81d4c-6fdc-4fa5-b1dd-0e1e2e18ddcf");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+        background-color: rgba(200, 200, 200, 0.7); /* Adjust background color opacity here */
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .button {
+      display: block;
+      margin: 0 auto; /* Align the button to the center */
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+
+    <form method="post" action="checkemplogin.jsp"> 
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pwd" required>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Login" class="button">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body
+{
+	background-color: lightblue;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+* {
+   box-sizing: border-box;
+}
+
+.logo
+{
+  position:absolute;
+left:0;
+top:0;
+}
+.imageColumn {
+   float: left;
+   width: 25%;
+   padding: 10px;
+}
+
+
+/* CSS for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS for the header */
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* CSS for the navigation links */
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* CSS for the logo image */
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/* CSS for the image column */
+.alignRow {
+  display: flex;
+  justify-content: center;
+}
+
+.imageColumn img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+/* Add more CSS as needed for other elements in your project */
